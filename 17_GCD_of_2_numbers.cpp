@@ -20,7 +20,7 @@ int GCDfunct(int a, int b)
 int main()
 {
     GCDfunct(3,1);
-    GCDfunct(1,2);
+    GCDfunct(16,8);
     GCDfunct(4,2);
     GCDfunct(14,3);
 

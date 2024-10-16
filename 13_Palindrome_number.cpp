@@ -16,9 +16,9 @@ void palindromeOrNot(int num)
     }
 
     if(originalNumber == reversednum)
-        cout<<"Give Number is palindrome"<<endl;
+        cout<<"Given Number is palindrome"<<endl;
     else
-        cout<<"Give Number is not a palindrome"<<endl;
+        cout<<"Given Number is not a palindrome"<<endl;
 }
 
 int main()
