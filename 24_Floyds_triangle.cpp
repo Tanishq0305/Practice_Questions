@@ -4,14 +4,17 @@ using namespace std;
 
 void FloydTriangle(int row)
 {
-    for(int i=1; i<row;i++)
+    int num = 1;
+
+    for(int i = 0; i<row;i++)
     {
-        for(int j = 0; j<i; j++)
+        for(int j =0; j<=i ; j++)
         {
-            cout<<i<<" ";
+            cout<<num++<<" ";
         }
         cout<<endl;
     }
+ 
 }
 
 int main()
